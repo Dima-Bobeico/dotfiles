@@ -8,15 +8,13 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'pangloss/vim-javascript'
 Plug 'neoclide/vim-jsx-improve'
 Plug 'tpope/vim-commentary'
+Plug 'dracula/vim'
 call plug#end()
 
 set clipboard=unnamed
 syntax on
 set guifont=FiraCode_Nerd_Font_Mono:h11
-set guioptions-=m
-set guioptions-=T
-set guioptions-=r
-colorscheme base16-google-dark
+colorscheme dracula
 set relativenumber
 set number
 set ignorecase smartcase
