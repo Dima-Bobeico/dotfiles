@@ -22,6 +22,9 @@ set cursorline
 set scrolloff=10
 set hlsearch
 set incsearch
+set guioptions-=m
+set guioptions-=T
+set guioptions-=r
 
 set ff=unix
 :imap jj <Esc> 
