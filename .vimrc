@@ -9,6 +9,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'neoclide/vim-jsx-improve'
 Plug 'tpope/vim-commentary'
 Plug 'dracula/vim'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 set clipboard=unnamed
