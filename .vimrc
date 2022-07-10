@@ -44,7 +44,7 @@ se mouse+=a
 let g:NERDTreeIgnore = ['^node_modules$']
 
 nmap <C-e> :NERDTreeToggle<CR>
-nmap <C-r> :NERDTreeFind<CR>
+nmap <C-w> :NERDTreeFind<CR>
 
 " use alt+hjkl to move between split/vsplit panels
 tnoremap <A-h> <C-\><C-n><C-w>h
